@@ -16,6 +16,21 @@
   p {
     @apply pb-4;
   }
+
+  ul, ol {
+    @apply list-outside;
+    @apply -mt-2;
+    @apply pl-6;
+    @apply pb-4;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
 }
 
 
